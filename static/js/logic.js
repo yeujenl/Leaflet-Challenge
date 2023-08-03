@@ -81,7 +81,7 @@ function createMarkers(response){
             fillColor: getColor(depth),
             radius: (magnitude) * 20000
         })
-        .bindPopup(title)
+        .bindPopup(title + "</br> Depth: " + depth)
 
         // Push the markers to the earthquake markers array
         earthquakeMarkers.push(earthquakeMarker)
